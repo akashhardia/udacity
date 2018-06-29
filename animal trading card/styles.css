@@ -1,0 +1,51 @@
+/* add your CSS here */
+img {
+  width: 300px;
+  height: 200px;
+  border: solid #ddd;
+  border-radius: 4px;
+  border-width: thin;
+}
+#container{
+  width: 300px;
+  margin-left: 35px;
+  margin-top: 20px;
+  font-family: Open Sans,sans-serif;
+  background-color: #f2f3f4;
+  padding: 1px 13px 13px 13px;
+  border: #ddd solid;
+  border-width: thin;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(144, 238, 244, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+
+}
+#card{
+  width: 274px;
+  padding: 1px 13px;
+  border: #ddd solid;
+  border-width: thin;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: justify;
+
+}
+#facts{
+  list-style-type: none;
+  padding: 1px;
+}
+body{
+  background-color: #dee0e2;
+  color:#454647;
+}
+.label{
+font-weight:bold;
+}
+.animal-info{
+  font-style: italic;
+}
