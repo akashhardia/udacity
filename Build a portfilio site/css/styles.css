@@ -1,0 +1,212 @@
+/* Starting Small         for nexus 5*/
+
+.container{
+    font-family: 'Lato', sans-serif;
+    margin: 0px 4px;
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*=========header============*/
+header{
+    color: #2d3c49;
+    letter-spacing: 1.7px;
+    word-spacing: 1.7px;
+    text-align: right;
+    height: 4%;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+header>img{
+    width: 15%;
+    height: 100%;
+}
+.headings{
+    width: 85%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.headings>h4{
+    font-size: 10px;
+    font-weight: 700;
+    height: 30%;
+    width: 100%;
+    margin: 0px 0px;
+    margin-top: 4px;
+}
+.headings>h1{
+    font-size: 30px;
+    height: 70%;
+    width: 100%;
+    margin: 0px 0px;
+    font-weight: 600;
+}
+/*============hr rule==========*/
+.hr{
+    background-color: #7d97ad;
+    height: 4px;
+    width: 100%;
+    margin-top: 30px;
+}
+/*=========article===========*/
+.about-me{
+    width: 100%;
+    height: 290px;
+    background-color: #dee0e2;
+    margin-top: 8px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.about-me img{
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 15px;
+    object-fit: cover;
+}
+.about-me picture{
+    margin: 0 auto;
+}
+.about-me>article{
+    font-size: 17px;
+    color:#635b5b;
+    font-weight: 700;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    word-spacing: 1.5px;
+}
+.about-me h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    }
+.about-me>article>p{
+    margin:0;
+}
+/*=======featured work=======*/
+.featured-work{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.featured-work>h2{
+    color:#7d97ad; 
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    margin:0;
+    padding: 12px 0px;
+    padding-bottom: 0px;
+}
+.card{
+    width: 100%;
+    height: 55%;
+    max-height: 240px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.card a{
+    text-decoration: none;
+}
+.card p{
+    width: 100%;
+    height:15%;
+    margin: 0;
+    color:#635b5b;
+    font-weight: 800;
+    text-align: center;
+}
+.card img{
+    height: 85%; 
+    width: 100%;
+    object-fit: cover;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*========================================================================================*/
+/*========================================================================================*/
+
+@media screen and (min-width: 650px){                /*ipad*/
+    .container{
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    header{
+        letter-spacing: 1.5px;
+    }
+    .headings>h4{
+        font-size: 15px;
+    }
+    .headings>h1{
+        font-size: 45px;
+    }
+    /*============hr rule==========*/
+    
+    /*============ article=========*/
+    .about-me article{
+        letter-spacing: 1.5px;
+        line-height: 1.5;
+    }
+    /*=======featured work=======*/
+    .card{
+        width: calc((100% - 20px)/2);
+    }
+    .card:nth-child(2n){
+        margin-right: 20px;
+    }
+}
+
+/*==================================================================================*/
+/*==================================================================================*/
+
+@media screen and (min-width: 950px){        /*for desktops*/
+    .container{
+        width: 70%;
+    }
+    header>img{
+        width: 10%;
+    }
+    .headings{
+        width: 90%;
+    }
+    .headings>h4{
+        font-size: 20px;
+    }
+    .headings>h1{
+        font-size: 55px;
+    }
+    /*============hr rule==========*/
+    /*============ article=========*/
+     .about-me{
+        height: 350px;
+    }
+    .about-me img{
+        height: 150px;
+    }
+    .about-me>article{
+        font-size: 20px;
+    }
+    /*=======featured work=======*/
+    .card{
+        width: calc((100% - 40px)/3);
+        height: 65%;
+        margin-right: 20px;
+    }
+    .card:last-child{
+        margin-right: 0px;
+    }
+    .featured-work>h2{
+        font-size: 30px;
+    }
+}
+    
